@@ -14,7 +14,7 @@ body {
 }
 header {
   grid-area: header;
-  text-align: center;
+  /* text-align: center; */
   background: #1abc9c;
   font-size: 50px;
 };
@@ -42,10 +42,14 @@ header {
 .nav a:hover {
   color: #f1f1f1;
 }
- button #seemore {
-  background: #eb94d0;
+
+h3:hover {
+  color: #1E90FF;
+}
+button {
+  background: #eb94d0;
   background-image: linear-gradient(to bottom, #246A73, #DEF2C8);
-  border-radius: 20px;
+  border-radius: 20px; */
   text-shadow: 3px 2px 1px #9daef5;
   box-shadow: 6px 5px 24px #666666;
   font-family: 'Lobster', cursive;
@@ -57,9 +61,12 @@ header {
   text-decoration: none;
 }
 
-button #seemore:hover {
-  background: #2079b0;
-  background-image: linear-gradient(to bottom, #DEF2C8, #246A73);
-  text-decoration: none;
+button :hover {
+    background: #2079b0;
+    background-image: linear-gradient(to bottom, #DEF2C8, #246A73);
+    text-decoration: none;
+  }
+/* .text {
+  text-align: center;
+  color: #1E90FF;
 }
-
